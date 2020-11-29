@@ -1,0 +1,11 @@
+1、打开方式：首先点击.exe文件"Server.exe"用于产生一个显示终端并且启动Server.jar或直接命令行启动，之后双击DocumentManagement.jar或命令行启动。
+
+2、程序配置：JavaSDK1.8.0_131
+	     IntelliJ IDEA 2019.3
+	     MySQL80
+
+3、注意：由于我使用的是IntelliJ IDEA，其本身含有GUI Designer。但是IDEA不会生成GUI页面对应的全部代码（部分页面组件属性的代码会被隐藏），而是根据其特有的保护机制将隐藏的代码和调用的其他包用Kotlin构建工具直接编译生成 .class 文件（也就是说 .class 文件和 .jar 包可以正常运行），而使用eclipse或者命令行直接进行javac编译会出现编译错误！
+
+
+4、数据库用户名：root
+	 密码：123456
